@@ -3,9 +3,10 @@
     console.log("in JS");
     function getLocation() {
         if (navigator.geolocation) {
-            console.log("geo KO");
+            console.log("geo OK");
             navigator.geolocation.getCurrentPosition(showPosition);
         } else {
+            console.log("geo KO");
             x.innerHTML = "Geolocation is not supported by this browser.";
         }
     }
