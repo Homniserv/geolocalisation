@@ -11,6 +11,7 @@
         }
     }
     function showPosition(position) {
+        console.log("in showPosition");
         x.innerHTML = "Latitude: " + position.coords.latitude +
                 "<br>Longitude: " + position.coords.longitude;
     }
