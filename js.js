@@ -1,6 +1,6 @@
 (function () {
     var x = document.getElementById("demo");
-    console.log("in JS");
+    console.log("in JS....x="+x);
     function getLocation() {
         if (navigator.geolocation) {
             console.log("geo OK");
