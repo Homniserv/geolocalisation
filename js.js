@@ -15,5 +15,6 @@
                 "<br>Longitude: " + position.coords.longitude;
     }
 
+    getLocation();
 
 })();
