@@ -16,5 +16,5 @@
     }
 
     getLocation();
-
+ console.log("end JS");
 })();
