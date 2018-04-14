@@ -1,3 +1,3 @@
 theme: jekyll-theme-merlot
-future: true to your _config.yml
-and/or add timezone: TIMEZONE
+future: true
+timezone: TIMEZONE
