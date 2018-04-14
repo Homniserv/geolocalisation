@@ -42,6 +42,12 @@
         console.log(`Latitude : ${crd.latitude}`);
         console.log(`Longitude: ${crd.longitude}`);
         console.log(`More or less ${crd.accuracy} meters.`);
+
+        console.log(`altitude = ${pos.coords.altitude} .`);
+     console.log(`heading = ${pos.coords.heading} .`);
+     console.log(`speed = ${pos.coords.altitude} .`);
+        console.log(`timestamp = ${pos.timestamp} .`);
+
     }
 
     function error(err) {
@@ -49,9 +55,9 @@
     }
 
     var posit = navigator.geolocation.getCurrentPosition(success, error, options);
-    console.log("pos=" + posit);
-    console.log("coords=" + posit.coords);
-    console.log("latitude=" + posit.coords.latitude);
+//    console.log("pos=" + posit);
+//    console.log("coords=" + posit.coords);
+//    console.log("latitude=" + posit.coords.latitude);
 
 
     console.log("end JS");
