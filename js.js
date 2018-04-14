@@ -59,6 +59,6 @@
 //    console.log("coords=" + posit.coords);
 //    console.log("latitude=" + posit.coords.latitude);
 
-
+//peter
     console.log("end JS");
 })();
