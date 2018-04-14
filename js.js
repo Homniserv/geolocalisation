@@ -62,7 +62,6 @@
 //    console.log("coords=" + posit.coords);
 //    console.log("latitude=" + posit.coords.latitude);
 
-//peter
-//pitagore
+//pitas
     console.log("end JS");
 })();
