@@ -2,4 +2,4 @@ theme: jekyll-theme-merlot
 # https://stackoverflow.com/questions/20422279/github-pages-are-not-updating
 #https://jekyllrb.com/docs/configuration/
 future: true
-timezone: TIMEZONE
+timezone: Europe/Paris
