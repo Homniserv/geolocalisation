@@ -50,7 +50,8 @@
 
     var posit = navigator.geolocation.getCurrentPosition(success, error, options);
     console.log("pos=" + posit);
-  console.log("pos=" + posit.coords;
+    console.log("coords=" + posit.coords);
+    console.log("latitude=" + posit.coords.latitude);
 
 
     console.log("end JS");
